@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "170951582096",
+    "firebase_url": "https://chatroom-2622a-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "chatroom-2622a",
+    "storage_bucket": "chatroom-2622a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170951582096:android:9e59fd79bb52684e81d315",
+        "android_client_info": {
+          "package_name": "com.example.chatroomiheb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7EhSfxBdrxjWQqV6gDWOr9__Kvo4jkEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170951582096:android:c0993a7d8ebfd80a81d315",
+        "android_client_info": {
+          "package_name": "com.example.chatsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7EhSfxBdrxjWQqV6gDWOr9__Kvo4jkEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170951582096:android:7e27c23d4518930f81d315",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7EhSfxBdrxjWQqV6gDWOr9__Kvo4jkEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

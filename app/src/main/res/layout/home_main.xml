@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/previous" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/backButton"
+        android:layout_above="@id/bottomMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+    <!-- Publication 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="16dp">
+
+        <!-- Post 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- User info -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- User profile picture -->
+                <ImageView
+                    android:id="@+id/profilePicture22"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/pictureguide"
+                    android:scaleType="centerCrop" />
+
+                <!-- User name and post time -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp">
+
+                    <TextView
+                        android:id="@+id/username22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Iheb chebbi"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/postTime22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 hours ago"
+                        android:textColor="#808080"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Post content -->
+            <TextView
+                android:id="@+id/postContent22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="number one team ."
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <!-- Post image -->
+            <ImageView
+                android:id="@+id/postImag22"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/img_9"
+                android:scaleType="centerCrop" />
+
+            <!-- Like, Comment, Share counts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <!-- Like count -->
+                <TextView
+                    android:id="@+id/ee2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/like"
+                    android:drawablePadding="4dp"
+                    android:text="10"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <!-- Comment count -->
+                <TextView
+                    android:id="@+id/commentCount112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/comment"
+                    android:drawablePadding="4dp"
+                    android:text="5"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:layout_marginStart="16dp" />
+
+                <!-- Share count -->
+                <TextView
+                    android:id="@+id/shareCount12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/share"
+                    android:drawablePadding="4dp"
+                    android:text="2"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:layout_marginStart="16dp" />
+
+            </LinearLayout>
+
+
+
+                <!-- Post 1 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- User info -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <!-- User profile picture -->
+                        <ImageView
+                            android:id="@+id/profilePicture2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/pictureguide"
+                            android:scaleType="centerCrop" />
+
+                        <!-- User name and post time -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginStart="8dp">
+
+                            <TextView
+                                android:id="@+id/username2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Iheb chebbi"
+                                android:textColor="#000000"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/postTime2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2 hours ago"
+                                android:textColor="#808080"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <!-- Post content -->
+                    <TextView
+                        android:id="@+id/postContent2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Photo avec madame l'ambassadrice du canada.
+"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <!-- Post image -->
+                    <ImageView
+                        android:id="@+id/postImag2"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/img_8"
+                        android:scaleType="centerCrop" />
+
+                    <!-- Like, Comment, Share counts -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="8dp">
+
+                        <!-- Like count -->
+                        <TextView
+                            android:id="@+id/ee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/like"
+                            android:drawablePadding="4dp"
+                            android:text="10"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <!-- Comment count -->
+                        <TextView
+                            android:id="@+id/commentCount11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/comment"
+                            android:drawablePadding="4dp"
+                            android:text="5"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:layout_marginStart="16dp" />
+
+                        <!-- Share count -->
+                        <TextView
+                            android:id="@+id/shareCount1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/share"
+                            android:drawablePadding="4dp"
+                            android:text="2"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:layout_marginStart="16dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/bottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="7dp">
+        <!-- Home Button -->
+        <ImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/fab_transformation_scrim_behavior"
+            android:src="@drawable/home"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Explore Button -->
+        <ImageButton
+            android:id="@+id/exploreButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/fab_transformation_sheet_behavior"
+            android:src="@drawable/user"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Profile Button -->
+        <ImageButton
+            android:id="@+id/profileButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/bottom_sheet_behavior"
+            android:src="@drawable/messages"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+</RelativeLayout>
